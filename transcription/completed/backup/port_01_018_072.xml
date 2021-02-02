@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-07-23-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-07-27">Transcription</t:resp>
+               <t:name role="transcr" project-ref="brycelennan"/>
+               <t:note>Nug Ninomiya might be Nagao Ninomiya</t:note>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-875"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value="2000">Fixtures</item>
+            <item principal="" value="1900">Stock</item>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/>
+         <orgName project-ref="JAIFRP-org-0049">City Trading Co.</orgName>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="" wra-ref="" project-ref=""/>
+                  <orgName project-ref="JAIFRP-org-0049">City Trading Co.</orgName>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>2900 S.E. Stark</addrLine>
+                     <addrLine>City</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-03-28">3/28/42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="x">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="x">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="x">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref="US">Am. born.</textLine>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when=""/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="1" wra-ref="unknown">Nug Ninomiya</person>
+                  <note>May be in database as Nagao Ninomiya</note>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>1206 N.E. Thompson</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine>TR. 9079</textLine>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p>Grocery business - fixtures 2000.00 stock 1900.00</p>
+                  <p>Few interested buyers. 5 year lease.</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>Suggested he ask his landlord to help and ask for cancellation of lease.</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" project-ref="JAIFRP-00011">D.V. Hemingway</person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note>VE. 2585</note>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

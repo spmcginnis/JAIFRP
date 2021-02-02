@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-08-16-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-09-06">Transcription</t:resp>
+               <t:name role="transcr" project-ref="brycelennan"/>
+               <t:note>Interviewee S. Hara very likely to be Somaji Hara due to previous mention in relation to address and property</t:note>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-1449"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value="35">4 bath tubs and 3 wash basins</item>
+            <item principal="" value="45">2 pool tables</item>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref="brycelennan">Some disputes about quantity of items purchased in "principal property" section</t:note>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="1" wra-ref="502052">S. Hara</person>
+         <note>Almost certain that S. Hara refers to Somaji Hara due to context in previous documents</note>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="1" wra-ref="502052">S. Hara</person>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>3rd + Everett 310 NW Everett</addrLine>
+                     <addrLine>Portland Oregon</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-04-14">4-14-42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="x">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="x">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="x">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref="JP">Japanese national</textLine>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when=""/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="1" wra-ref="502052">S. Hara</person>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>3rd + Everett - City</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine>none</textLine>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="x">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p><person role="3" project-ref="JAIFRP-00304">Paul Horowitz</person> - hat shop prop - 421 SW Stark St owns building in which <person role="1" wra-ref="502052">Hara</person> operates pool hall + bath house @ $10 per mo rental. Got bldg. in 1941. <person role="1" wra-ref="502052">Hara</person> has sold 4 bath tubs + 3 wash basins for $35.00 claims to not know name of purchaser. <person role="3" project-ref="JAIFRP-00304">Horowitz</person>advises he purchased 2 pool tables for $45 - paid $5.00 down. <person role="1" wra-ref="502052">Hara</person> interviewed today - says he purchased all contents for $40.00 about 6 yrs ago, including bath fixtures - says he has now sold pool tables to another party - is very profane, indifferent as to what may happen to him, is 60 years of age. <person role="1" wra-ref="502052">Hara</person> thought he might be able to call at our office in 1 week - not sooner.</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>Suggested to <person role="3" project-ref="JAIFRP-00304">Horowitz</person> by <orgName project-ref="JAIFRP-0213">Crouch, Risberg, + Alger</orgName> that he seek redress thru Small Claims Court</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" project-ref="JAIFRP-00305">Alger</person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note><person role="3" project-ref="JAIFRP-00304">Horowitz</person></note>
+         <note>At 5741</note>
+         <note><orgName project-ref="JAIFRP-org-0214">Royal Hat Works</orgName></note>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

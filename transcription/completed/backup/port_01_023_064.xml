@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-08-07-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-08-13">Transcription</t:resp>
+               <t:name role="transcr" project-ref="brycelennan"/>
+               <t:note>Only one I. Yamada in WRA file from Portland - Ineko Yamada</t:note>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-1162"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref="15307"/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="x" value="1750"><orgName project-ref="JAIFRP-org-0127">Home Hotel</orgName></item>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <orgName project-ref="JAIFRP-org-0127">Home Rooming House</orgName>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <orgName project-ref="JAIFRP-org-0127">Home Rooming House</orgName>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>331 - N.W. 2nd Ave.</addrLine>
+                     <addrLine>City</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-04-16">4/16/42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="x">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="x">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="x">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref="US">Am Born Japanese</textLine>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when=""/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="1" wra-ref="402048">I. Yamada</person>
+                  <note>Only one I. Yamada in WRA file from Portland - Ineko Yamada</note>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>331 N.W. 2nd Ave</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine>No Phone</textLine>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="x">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p>Rooming house - 20 rooms. Largely negro tenants. Average monthly gross $100.00. Pays $25.00 rent. Asking about $300 for furnishings. Have a woman prospective buyer who has shown considerable interest. Deal should be closed Saturday afternoon. If no sale will sell furniture on 2nd hand basis - has a buyer.</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>Will let us know results - Probably Monday. This was unsolicited call at place of business by us. The above steps are the owner's own solution of her problem and seem satisfactory to her</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" project-ref="JAIFRP-00024">F.E. Schmear</person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note>Family #15307</note>
+         <note><date when="1942-05-06">5/6</date><person role="1" wra-ref="402048">Miss Yamada</person> says she sold thus place for $1750.00 cash. <person role="4" project-ref="JAIFRP-00024">F.E.S.</person> (over)</note>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

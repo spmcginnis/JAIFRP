@@ -1,0 +1,134 @@
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0" temp="">
+  <!-- This template is FOR REFERENCE ONLY.  Please do not use it for new transcriptions, as it might not include the latest revisions. -->
+  <!-- currently the document does not have a formal schema.  The xml belongs to the generic (no-namespace) namespace.  The header is modelled following TEI guidelines, but the file has not yet been made TEI conformant. This might be desirable to do at a later stage. -->
+  <!-- updated 2018 June 27 spm   -->
+  
+  <t:teiHeader>
+    <t:fileDesc>
+      <t:titleStmt>
+        <t:title/>
+        <t:respStmt>
+          <t:resp when="">xml template</t:resp>
+          <t:name role="editor" project-ref="spm"/>
+        </t:respStmt>
+        <t:respStmt>
+         <t:resp when="2018-07-02">Transcription</t:resp>
+          <t:name role="transcr" project-ref="andrej"/>
+		  <t:note>multiple matches for Akagi M. as neither first name nor gender given on form, nor gendered pronoun used within handwritten text. 
+		  <person role="" wra-ref="502234">Akagi Minoru</person> U.C OR, <person role="" wra-ref="500005">Akagi Masuji J.</person> Stl. WA, 
+		  <person role="" wra-ref="501522">Akagi Michiko</person> Stl. WA, <person role="" wra-ref="601996">Akagi May</person> Al. CA, 
+		  <person role="" wra-ref="603190">Akagi Miyeko</person> Al. CA</t:note>
+        </t:respStmt>
+      </t:titleStmt>
+      <t:publicationStmt/>
+      <t:sourceDesc>
+        <t:bibl>
+          <index ref=""/>
+          <series>Portland</series>
+        </t:bibl>
+      </t:sourceDesc>
+    </t:fileDesc>
+    <t:xenoData>
+      <!-- NARA meta. -->
+      <family-identifier ref=""/>
+    </t:xenoData>
+    <researchStmt>
+      <propertyList>
+        <item principal="" value="">1937 Delivery Vehicle</item>
+        <comments project-ref=""/>
+      </propertyList>
+    </researchStmt>
+  </t:teiHeader>
+  <document type="interviewForm">
+    <div loc="side">
+      <person role="1" wra-ref="unknown">M. Akagi</person>
+    </div>
+    <div loc="top">
+      <p>Portland</p>
+      <form>
+        <formPart>
+          <field>
+            <label>Name</label>
+            <person role="1" wra-ref="unknown">M. Akagi</person>
+          </field>
+          <field>
+            <label>Address</label>
+            <address>
+              <addrLine>822 N.Russell</addrLine>
+            </address>
+          </field>
+          <field>
+            <date when="1942-04-09">4/9/42</date>
+          </field>
+          <field type="checkList">
+            <item checked="">Telephone</item>
+            <item checked="">Interview</item>
+          </field>
+          <field type="checkList">
+            <item checked="">Adult</item>
+            <item checked="">Minor</item>
+            <item checked="">Male</item>
+            <item checked="">Female</item>
+          </field>
+          <field>
+            <label>Citizenship</label>
+            <textLine ref=""/>
+          </field>
+          <field>
+            <!-- about the subject -->
+            <label>Date of last entry into United States</label>
+            <date when="YYYY-MM-DD"/>
+          </field>
+          <field>
+            <label>Operating under Treasury License now?</label>
+            <textLine checked=""/>
+          </field>
+          <!-- person interviewed -->
+          <field>
+            <label>Person Interviewed</label>
+            <person role="" wra-ref="" project-ref=""/>
+          </field>
+          <field>
+            <label>Address</label>
+            <address>
+              <addrLine/>
+            </address>
+          </field>
+          <field>
+            <label>Telephone Number</label>
+            <textLine/>
+          </field>
+          <field type="checkList">
+            <label>Type of Business</label>
+            <item checked="">Partnership</item>
+            <item checked="">Proprietorship</item>
+            <item checked="">Corporation</item>
+            <item checked="">Individual</item>
+          </field>
+        </formPart>
+        <formPart>
+          <textBox id="scope">
+            <label>Principal property involved and scope of problem</label>
+            <p>1937 Chev. Panel Delivery.</p>
+			<p>Undecided whether or not to sell</p>
+			<p><span type="strikethrough">information on<span type="uncertainty" cause="handwriting"/></span></p>
+			</textBox>
+          <textBox id="action">
+            <label>Action taken</label>
+            <p/>
+          </textBox>
+          <note>Attach addional pages where necessary.</note>
+        </formPart>
+        <formPart>
+          <field id="byLine">
+            <label>Handled by</label>
+            <person role="4" wra-ref="unknown" project-ref="unknown"><span type="uncertainty" cause="handwriting"/></person>
+            <textLine/>
+          </field>
+        </formPart>
+      </form>
+    </div>
+    <div loc="margin">
+    </div>
+  </document>
+</JAIFR-XML>

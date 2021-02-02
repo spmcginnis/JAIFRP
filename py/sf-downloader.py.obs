@@ -1,0 +1,134 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys # am I using this?
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
+from bs4 import BeautifulSoup
+import requests # am I using this?
+from time import sleep
+import csv
+
+destination = ['D:\\academics\\Research - Digital\\Japanese Internment\\Project Files\\images\\Portland','D:\\academics\\Research - Digital\\Japanese Internment\\Project Files\\images\\SanFrancisco'][1]
+    # choose 0=portland 1=SF
+
+options = webdriver.ChromeOptions()
+preferences = {"download.default_directory": destination}
+options.add_experimental_option("prefs", preferences)
+    # adds the stuff listed in profile
+WD_path = 'D:\\academics\\Research - Digital\\Japanese Internment\\Project Files\\bin\\chromedriver.exe'
+driver = webdriver.Chrome(executable_path=WD_path, chrome_options=options)
+    # Optional argument, if not specified will search path.
+
+driver.implicitly_wait(35)
+    # will wait up to[?] 35 seconds while polling for elements.
+
+# series IDs for Portland and SF
+P_ID = '40143322'
+SF_ID= '38221779'
+
+#building the index for the filenames
+Coll_URL_root = 'https://catalog.archives.gov/'
+
+driver.get(Coll_URL_root + 'search?q=*:*&f.parentNaId=' + SF_ID + '&f.level=fileUnit&sort=naIdSort%20asc&rows=1000')
+sleep(5)
+source = driver.page_source
+soup = BeautifulSoup(source, 'lxml')
+# divs = soup.find_all('div', class_ = 'resultDetail')
+FP_divs = soup.find_all('div', class_ = 'descriptionResult')
+
+FilePart_list = []
+item_list = []
+# item_list2 = []
+
+for FP_div in FP_divs:
+    FPID = FP_div.select('div.resultDetail')[0].get_text().split(':')[1].split()[0]
+    # ID = div.get_text().split(':')[1].split()[0]
+    # filename = div.select('.titleResult')[0].get_text()
+    # FilePart_list.append([filename, ID])
+    FilePart_list.append(FPID)
+
+test = [item.encode('utf-8') for item in FilePart_list]
+print(test)
+#exit()
+
+for ID in FilePart_list:
+    driver.get(Coll_URL_root + 'search?q=*:*&f.parentNaId=' + ID + '&f.level=item&sort=naIdSort%20asc&rows=1000')
+    sleep(5)
+    item_source = driver.page_source
+    item_soup = BeautifulSoup(item_source, 'lxml')
+    # divs = soup.find_all('div', class_ = 'resultDetail')
+    item_divs = item_soup.find_all('div', class_ = 'descriptionResult')
+
+    for item_div in item_divs:
+        itemID = item_div.select('.resultDetail')[0].get_text().split(':')[1].split()[0]
+        # ID = div.get_text().split(':')[1].split()[0]
+        filename = item_div.select('.titleResult')[0].get_text()
+
+        driver.get('https://catalog.archives.gov/id/'+ itemID)
+        sleep(10)
+        print('testing')
+        delay = 100
+        try:
+            myElem = WebDriverWait(driver, delay).until(EC.presence_of_all_elements_located((By.XPATH, '//a[@ng-click="changeMedia(objectIndex(doc))"]')))
+            # myElem = WebDriverWait(driver, delay).until(EC.presence_of_element_located(By.XPATH, '//a[@ng-click="changeMedia(objectIndex(doc))"]'))
+            print("Page is ready!")
+        except TimeoutException:
+            print("Loading took too much time!")
+        print('continuing....')
+        driver.find_element_by_xpath('//a[@ng-click="changeMedia(objectIndex(doc))"]').click()
+        sleep(5)
+
+        innerHTML = driver.execute_script('return document.body.innerHTML')
+        URL = innerHTML.split('downloadFullImage')[1].split('ng-href="')[1].split('"')[0]
+        driver.get(URL)
+
+        item_list.append([filename,itemID,URL])
+        sleep(10)
+
+with open('../images/SanFrancisco/filname_index.csv', 'w', newline='') as f:
+    writer = csv.writer(f)
+    for n in item_list:
+        writer.writerow(n)
+
+exit()
+
+# https://catalog.archives.gov/search?q=*:*&f.parentNaId=38221779&f.level=fileUnit&sort=naIdSort%20asc
+# print(parsed_html.prettify().encode('utf-8'))
+# div#resultsView div.row span.titleResult and div.resultDetail
+# div.row points to each entry.  titleResult to the title (Reel 1A etc.)  resultDetail to the following:
+# <span class="hidden-inline-xs"> <span class="bold">National Archives Identifier:</span>&nbsp;45627616</span>
+
+
+# URL CONSTRUCTOR
+# Navigating to the file
+# item_ID = '48438801'
+# URL_file = 'Reel-01A_001.pdf'
+    # Replace with a data dict
+
+###
+URL_root = 'https://catalog.archives.gov/OpaAPI/media/'
+URL_branch_1 = '/content/electronic-records/rg-210/'
+URL_branch_2 = ['WRAFRB/','WRAFRBSF/']
+    # choose 0=portland 1=SF .... check portland branch
+download_arg = '?download=true'
+
+target_url = URL_root + item_ID + URL_branch_1 + URL_branch_2[1] + URL_file + download_arg
+
+#for target_url in target_url:
+driver.get(target_url)
+
+exit()
+
+
+
+from bs4 import BeautifulSoup
+from selenium import webdriver
+
+url = "http://legendas.tv/busca/walking%20dead%20s03e02"
+browser = webdriver.PhantomJS()
+browser.get(url)
+html = browser.page_source
+soup = BeautifulSoup(html, 'lxml')
+a = soup.find('section', 'wrapper')
+###

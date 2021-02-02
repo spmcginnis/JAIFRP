@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-08-07-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-08-13">Transcription</t:resp>
+               <t:name role="transcr" project-ref="brycelennan"/>
+               <t:note/>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-1166"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="x" value="350"><orgName project-ref="JAIFRP-org-0127">Home Hotel</orgName></item>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <orgName project-ref="JAIFRP-org-0127">Home Rooming House</orgName>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <orgName project-ref="JAIFRP-org-0127">Home Rooming House</orgName>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>331 - N.W. 2nd Ave</addrLine>
+                     <addrLine>City</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-04-27">4/27/42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="x">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="x">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="x">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref=""/>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when=""/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="1" wra-ref="402048">I. Yamada</person>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine/>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine/>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p>Have a prospect for purchase @ 350.00. Offers only $75.00 down + $10.00 per month. Is trying to obtain more generous terms and feel tat might have a possibility of obtaining them. At the present time only about half of the rooms are available for renting as the family uses ten rooms themselves. She suggested that this new buyer might be able + willing to increase the montly payments if the increased income from additional rooms was pointed out. The Yamadas are having a 2nd hand man make an appraisal just in case this deal falls through.</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>The collection services of banks was explained as an aid in handling the sales contract.</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" project-ref="JAIFRP-00024">F.E. Schmear</person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note/>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

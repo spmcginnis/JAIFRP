@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-07-31-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-08-04">Transcription</t:resp>
+               <t:name role="transcr" project-ref="spencercgondorf">Spencer Gondorf</person>
+               <t:note/>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-954"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value="1700.00">Price of Hotel</item>
+            <item principal="" value="1303.14">Mortgage</item>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/>
+         <orgName project-ref=""/>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="" wra-ref="" project-ref=""/>
+                  <orgName project-ref="JAIFRP-org-0079">Everett Hotel</orgName>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>318 N.W. Broadway</addrLine>
+                     <addrLine>Portland Oregon</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-06-30">June 30, 1942</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="x">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="x">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="x">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref=""/>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="" wra-ref="" project-ref=""/>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine/>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine/>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p/>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>A meeting was help this afternoon at 2 p.m. in the office of Dean Vincent Inc. It closed the sale of the subject hotel. There were present Rogers..representing Metropolitan Life Insurance owner's of the property;<person project-ref="JAIFRP-00133">Andy Radakovich</person>attorney for the purchaser;<person project-ref="JAIFRP-00132">H.W. Johnson</person>, real estate broker; Morris Goldstein Jr. representing he father, holder of the mortgage agasint the hotel furnishings</p>
+                  <p>under power of attorney;<person project-ref="JAIFRP-00120">Mr. T. E. Linden Sr.</person>. representing his son, owner of the consideration paid for the property was $1700.00 out of which was taken $1303.14 to satisfy the mortgage and all back interest owed by <person project-ref="JAIFRP-00122">Kimi Anazawa</person> to <person project-ref="JAIFRP-00129">C. Uyesugi</person>. As the seller had agreed to a selling price of $1500</p>
+                  <p><person project-ref="JAIFRP-00132">H.W. Johnson</person> received $100 commision in addition to the earnest money deposit of $100 which he had been holding since about June 4th. A slight verbal controversay took place between <person project-ref="JAIFRP-00120">T.E. Linden Sr.</person> and <person project-ref="JAIFRP-00132">Mr H.W. Johnson</person> over the balance of the additional $100 which <person project-ref="JAIFRP-00120">Mr. Linden</person> finally paid,</p>
+                  <p>admitting that his memory was a little faulty as to the net selling rules. He was reminded of the fact that his son had agreed to sell the hotel for $1500 net early in May. The sale and occupancy by the new owner as of July 1st, all rentals, utilities, and bills being adjusted as of that date.</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="3" wra-ref="" project-ref="JAIFRP-00023">Hemmingway</person> 
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note/>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

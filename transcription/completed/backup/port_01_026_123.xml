@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-08-16-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-08-25">Transcription</t:resp>
+               <t:name role="transcr" project-ref="andrej"/>
+               <t:note/>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-1271"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value="">Private Business</item>
+            <t:note project-ref="JAIFRP-org-0189">Joe Koida Florist</t:note>
+			<t:note>No exact match for "Joe Koida". Closest possible is <person role="1" wra-ref="504883" project-ref="">Koida J William</person> born in '36</t:note>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="1" wra-ref="504883" project-ref="">Joe Koida</person>
+         <orgName project-ref=""/>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="" wra-ref="" project-ref=""/>
+                  <orgName project-ref="JAIFRP-org-0189">Joe Koida Florist</orgName>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>Route 11 Box 851</addrLine>
+                     <addrLine>Milwaukie, Ore</addrLine>
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-03-21">March 21, 1942</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="x">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="x">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref="">Alien</textLine>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="1" wra-ref="504881" project-ref="">Wm Koida</person>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>Route 11 Box 851</addrLine>
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine>2-5331 Milwaukie</textLine>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="x">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p>Has greenhouse &amp; 6 acres of land.  Raises</p>
+				  <p>Flowers &amp; shrubs.  Plans to keep property</p>
+				  <p>near his home &amp; let his neighbor use 2 acres</p>
+				  <p>to keep place in shops.</p>
+				  <p>Family consists of wife - citizen, &amp; two children,</p>
+				  <p>and old father an alien.</p>
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>Advised he have his attorney draw necessary papers</p>
+				  <p>to protect his interests.</p>
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" wra-ref="" project-ref="JAIFRP-00011">Hemingway</person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note/>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

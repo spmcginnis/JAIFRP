@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-07-14-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-07-15">Transcription</t:resp>
+               <t:name role="transcr" project-ref="andrej"/>
+               <t:note/>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-737"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref="16138"/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value="">Private Business</item>
+			<item principal="" value="">Furnishing</item>
+            <t:note project-ref="JAIFRP-org-0014">Barber Apartment</t:note>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/>
+         <orgName project-ref="JAIFRP-org-0014">Barber Apartment</orgName>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="" wra-ref="" project-ref=""/>
+                  <orgName project-ref="JAIFRP-org-0014">Barber Apartment</orgName>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>536 S.E. Grand Avenue</addrLine>
+                     <addrLine>Portland, Oregon</addrLine>
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-03-17">March-17-1942</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="x">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="x">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="x">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref="">American born Japanese</textLine>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""><span type="strikethrough"/></textLine>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="1" wra-ref="502222" project-ref="">Haruye Ikeya</person>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>536 S.E Grand Avenue</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine>Ex 4773</textLine>
+				  <textLine>Family# 16138</textLine>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="x">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p>Operate apartment house of 18 apartments owned</p>
+				  <p>by<person wra-ref="" project-ref="JAIFRP-00014">J.C. Winters</person>. Carried on by mother-alien-, and</p>
+				  <p>two daughters - both <span type="uncertainty" cause="handwriting"/>formr. operator over</p>
+				  <p>furnishings which they wish to dispose of.</p>
+				  <p>Sold</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>Suggested they ask<person wra-ref="" project-ref="JAIFRP-00014">Winters</person>to secure new tenant</p>
+				  <p>who could purchase furnishings.  Failing in this, to</p>
+				  <p>contact local realestate dealer or their bank.</p>
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" wra-ref="" project-ref="JAIFRP-00011">Hemingway</person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note/>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-07-14-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-07-31">Transcription</t:resp>
+               <t:name role="transcr" project-ref="barde"/>
+               <t:note>Part of a series of documents regarding efforts by <person role="1" wra-ref="503958">Fukunosu Toyota, aka Frank Toyota</person> to sell his restaurant.  Mr. <person role="3" project-ref="JAIFRP-00020">Wong</person> is the aspiring purchaser and Mr. <person role="3" project-ref="JAIFRP-00019">Holbrook</person> is facilitating the deal</t:note>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-728"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/>
+         <orgName project-ref="JAIFRP-org-0017">Burnside Restaurant</orgName>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="3" wra-ref="" project-ref="JAIFRP-00020">Mr. Holbrook</person>
+                  <person role="3" wra-ref="" project-ref="JAIFRP-00019">Mr. Wong</person>
+                  <orgName project-ref="JAIFRP-org-0017"/>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine/>405 West Burnside St.
+                     <addrLine/>Portland, Or
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-06-09">6/9/42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref=""/>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="" wra-ref="" project-ref="JAIFRP-00019">Mr. Holbrook</person>
+                  <person role="" wra-ref="" project-ref="JAIFRP-00020">Mr. Wong</person>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine/>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine/>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p>11:15 AM  Mr. Holbrook called and revised the proposed purchase of Burnside Restaurant by Mr. Wong - @2000--stating bill of sale ready at 11 PM on payment of money.  Meeting at Evacuee Property Department for 11:00</p>
+                  <p>1:15 PM  Mr. Wong - Mr. Holbrook - Mr. <person role="4" project-ref="JAIFRP-00023">Hemmingway</person> - Mr. <person role="5" project-ref ="JAIFRP-00022">Howard</person> - Chinese cousin of Mr.Wong at bank.  No objection was registered from any source. Check for $2000 given to Mr. Holbrook for delivery for purchase price to Mr. <person role="3" project-ref="JAIFRP-00053">Damis</person> (atty for Toyota) = Bill of Sale ready.</p>
+              <!--Create more <p/> as necessary.-->
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>6/9/42  3:00 PM Mr. Howard called on Mr. Holbrook at <orgName="JAIFRP-org-00031"> Commonwealth </orfName>who advised Chink for $2000.  delivery and Bill of Sale received and in good order. which closes this case</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" wra-ref="" project-ref="JAIFRP-00022">Howard</person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note/>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

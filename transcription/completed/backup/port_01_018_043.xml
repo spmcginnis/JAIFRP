@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-07-23-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-07-25">Transcription</t:resp>
+               <t:name role="transcr" project-ref="brycelennan"/>
+               <t:note>In Address section, Toyota is believed to be Tom Toyota and is further extrapolated to be Tommy Toyota</t:note>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-843"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="x" value="1200">Charlie's Good Eats</item>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/>
+         <orgName project-ref=""/>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="" wra-ref="" project-ref=""/>
+                  <orgName project-ref="JAIFRP-org-0018">Charlie's Good Eats</orgName>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>25 N.W. 3rd Ave</addrLine>
+                     <addrLine>City</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-06-06">6/6/42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="x">Telephone</item>
+                  <item checked="">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="x">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="x">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref=""/>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when=""/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="2" project-ref="JAIFRP-00053">John Damis</person>
+                  <note>-Atty</note>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>In <person role="1" wra-ref="508771">Toyota</person> + <person role="2" project-ref="JAIFRP-00050">Lilles</person></addrLine>
+                     <note>Toyota is believed to be Frank Toyota based on association with Thomas Lilles and is further extrapolated to be Fukonsu Toyota, whose location and description align with Frank's</note>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine/>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p>Above party advised this morning that he had a deposit on sale of restaurant for $1200.00 cash. Out of this now must be paid $385.00 due on refrigerator install and attorney fee - ? Hope to close deal immediately.</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>6/10/42 Called <person role="2" project-ref="JAIFRP-00053">Mr. Damis</person> = advise no sale has been made but has a Chinese passport <span type="uncertainty" cause="handwriting"/> <person role="2" project-ref="JAIFRP-00050">Mr. Lilles</person> who requested to be in yesterday or today. As yet he has not arrived.</p>
+                  <p>G.N.</p>
+                  <p><person role="2" project-ref="JAIFRP-00050">Lilles</person> is on Sunshine <span type="uncertainty" cause="handwriting"/></p>
+                  <p>6/24/42 Called <person role="2" project-ref="JAIFRP-00053">Mr. Damis</person> - says still no soap + unable to service a refrigerator <span type="uncertainty" cause="handwriting"/>, but has shown place several times - says will call.</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" project-ref="JAIFRP-00011">D.H. Hemingway</person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note><person role="2" project-ref="JAIFRP-00053">Damis</person>Phone At 3500</note>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

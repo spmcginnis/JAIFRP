@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-08-16-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-08-22">Transcription</t:resp>
+               <t:name role="transcr" project-ref="andrej"/>
+               <t:note/>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-1403"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/><note>nothing written</note>
+         <orgName project-ref=""/>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="1" wra-ref="501275" project-ref="">Ami Kinoshita</person>
+                  <orgName project-ref=""/>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>Rt 1 Box 19</addrLine>
+                     <addrLine>Gresham Oregon</addrLine>
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-06-03">June 3-42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref=""/>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="1" wra-ref="415053" project-ref="">Nakao Masayoshi</person>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>Assembly Center</addrLine>
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine>North Portland Ore</textLine>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p>Boat &amp; scow at Nahcotta Wash owned by <orgName project-ref="JAIFRP-org-0175">Stackpole Oyster Co.</orgName>.</p>
+				  <p><person role="1" wra-ref="501275" project-ref="">Miss Kinoshita</person> is sick in the hospital so I talked</p>
+				  <p>with her brother <person role="1" wra-ref="415053" project-ref="">Mr. Nakao</person>.  He says they have sold the</p>
+				  <p>boat to <orgName project-ref="JAIFRP-org-0176">Booth Fisheries Co.</orgName> and will receive this</p>
+				  <p>money as soon as a duplicate Federal license has</p>
+				  <p>been issued and the bill of sale received.  They are</p>
+				  <p>writing a letter to <person role="3" wra-ref="" project-ref="JAIFRP-00257">Mr. RH Norris</person> mngr. <orgName project-ref="JAIFRP-org-0176">Booth Fisheries Co.</orgName></p>
+				  <p>regarding the leasing of the scow.  They have</p>
+				  <p>known <person role="3" wra-ref="" project-ref="JAIFRP-00257">Mr. Norris</person> for a long time and are satisfied</p>
+				  <p>he will treat them right.  The <orgName project-ref="JAIFRP-org-0176">Booth Fisheries Co.</orgName> are also</p>
+				  <p>leasing their oyster beds.  They want $50.00 per year for the scow and any other expense such as</p>
+				  <p>taxes and keeping it in good repair.  All transactions</p>
+				  <p>are to be in <person role="1" wra-ref="501275" project-ref="">Miss Kinoshita</person> as she is an American Citizen</p>
+				  <p>and <person role="1" wra-ref="415053" project-ref="">Mr. Nakao</person> is a foreigner.</p>
+				  
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p/>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" wra-ref="" project-ref="JAIFRP-00017">Roe</person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note>Res @ Center 5-B-13</note>
+      </div>
+   </document>
+</JAIFR-XML>

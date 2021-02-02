@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-08-16-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-08-25">Transcription</t:resp>
+               <t:name role="transcr" project-ref="andrej"/>
+               <t:note>Based on port_01_026_151, where <person role="1" wra-ref="502782" project-ref="">Teru Koyama</person>, with the same address, sells her car, I'm assuming that "Mrs. K. Koyama"
+			   dealt with here, is the same person, and that "K." is a typo. Teru is listed under family # 16109A, no listing for 16109B, whom I would assume would be her husband ("Dr. Koyama" in this doc).  The other "K. Koyama listed 
+			   under the same family #, is listed as having been born in '33, so doubtful she is the "K." dealt with in this doc.  The only other "male married" Koyama from OR is
+			   <person role="1" wra-ref="502814" project-ref="">Koyama Isuke</person>, but he is listed under family # 16215A.  Decided to give him project-ref instead.</t:note>
+			   
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-1301"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="1" wra-ref="502782" project-ref="">Mrs. K. Koyama</person><note>assuming "K." is a typo</note>
+         <orgName project-ref=""/>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="1" wra-ref="502782" project-ref="">Mrs. K. Koyama</person><note>assuming "K." is a typo</note>
+                  <orgName project-ref=""/>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>4039 SE Grant Ct.</addrLine>
+                  </address>
+               </field>
+               <field>
+                  <date when="YYYY-04-18">4/18</date><note>no year written</note>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref=""/>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="" wra-ref="" project-ref=""/>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine/>
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine>Ea. 0528</textLine>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p><person role="1" wra-ref="" project-ref="JAIFRP-00276">Dr. Koyama</person> received a pmt</p>
+				  <p>of $90.00 in advance on some</p>
+				  <p>dental work to be done on <person role="3" wra-ref="" project-ref="JAIFRP-00277">Carl Jones</person></p>
+				  <p>(negro).  The work was just</p>
+				  <p>started when the doctor was interned.</p>
+				  <p><person role="1" wra-ref="502782" project-ref="">Mrs. Koyama</person> has sold her car and</p>
+				  <p>is ready to return the $90.00 to <person role="3" wra-ref="" project-ref="JAIFRP-00277">Carl Jones</person></p>
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>Tried to locate <person role="3" wra-ref="" project-ref="JAIFRP-00277">Jones</person>.  Has</p>
+				  <p>moved from <orgName project-ref="JAIFRP-org-0194">Shasta Hotel</orgName> to east</p>
+				  <p>side.  Will locate him and advise</p>
+				  <p><person role="1" wra-ref="502782" project-ref="">Mrs. Koyama</person></p>
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" wra-ref="unknown" project-ref="unknown"><span type="uncertainty" cause="handwriting"/></person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note/>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-07-31-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2019-09-03">Transcription</t:resp>
+               <t:name role="transcr" project-ref="spencercgondorf">Spencer Gondorf</t:name>
+               <t:note/>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-958"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/>
+         <orgName project-ref="JAIFRP-org-0079">Everett Hotel</orgName>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="" wra-ref="" project-ref=""/>
+                  <orgName project-ref="JAIFRP-org-0079">Everett Hotel</orgName>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>318 NW Bdwy</addrLine>
+                     <addrLine>Portland, Or.</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-06-10"/>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref=""/>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="3" wra-ref="" project-ref="JAIFRP-00287">John Yerkovich</person>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>atty - Plutt Bldg.</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine/>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p><person project-ref="JAIFRP-00287">Mr. Yerkovich</person> representing <person project-ref="JAIFRP-00288">Andy Radakovich</person> purchasing for above hotel, called to<span type="unknown" cause="handwriting"/>owner - <person project-ref="JIFRP-00120">Mr. Tom Linden</person> now in the<span type="uncertainty" cause="handwriting"/>who referd to <person project-ref="JAIFRP-00120">Tom Linden</person>-SN BE 3956 = for advice.<span type="uncertainty"/> law appeared</p>
+                  <p>nessesary tp <person project-ref="JAIFRP-00287">Yerkovich</person>, and he<span type="uncertainty" cause="handwriting"/>to effect<span type="uncertainty" cause="handwriting"/>of the sale and purchase on that basis. Phoned to<person project-ref="JAIFRP-00023">Don Hemmingway</person> 6/10/42 <span type="uncertainty" cause="handwriting"/>called in to check in on above deal, in<span type="uncertainty" cause="handwriting"/></p>
+                  <p><span type="uncertainty" cause="handwriting"/>who actually have<span type="uncertainty" cause="handwriting"/>in <orgName project-ref="JAIFRP-0079">Everett Hotel</orgName></p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>6/16/42<person project-ref="JAIFRP-00290">H.W. Johnson</person>informed<person project-ref="00023">Mr. Hemmingway</person>today to advise that the<span type="uncertainty" cause="handwriting"/>had been recived for approval from<person project-ref="JAIFRP-00120">Tom Linden</person><spam type="uncertainty" cause="handwriting"/>sell, needrequest for approval from<span type="uncertainty" cause="handwriting"/></p>
+                  <p>age on bldg. for<span type="uncertainty" cause="handwriting"/>gone formed. Expected to sell<span type="uncertainty" cause="handwriting"/>for Monday 6/22 or Tuesday 6/23/42</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" wra-ref="unknown" project-ref=""><span type="uncertainty" cause="blank"/></person> 
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note/>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

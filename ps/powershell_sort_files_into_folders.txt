@@ -1,0 +1,8 @@
+# Powershell script to create a set of directories based on filenames and then move the files into the directories.
+
+Get-ChildItem -file |
+Group-Object {$_.Name -replace '_P.*',''} |
+ForEach-Object {
+$dir = New-Item -Type Directory -Name $_.Name
+$_.Group | Move-Item -Destination $dir
+}

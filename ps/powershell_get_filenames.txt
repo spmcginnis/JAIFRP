@@ -1,0 +1,4 @@
+$siteFolder="..\images";
+>> $csvFile="contents.csv";
+>> $delimiter=",";
+>> get-childitem $siteFolder -rec | select-object FullName | export-csv -delimiter $delimiter -path $csvFile

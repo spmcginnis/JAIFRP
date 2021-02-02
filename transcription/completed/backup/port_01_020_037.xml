@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-07-31-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-06-18">Transcription</t:resp>
+               <t:name role="transcr" project-ref="spencercgondorf">Spencer Gondorf</person>
+               <t:note/>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-956"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="x" value="100">Deposit</item>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/>
+         <orgName project-ref=""/>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="" wra-ref="" project-ref=""/>
+                  <orgName project-ref="JAIFRP-org-0079">Everett Hotel</orgName>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>318 N.W. Broadway</addrLine>
+                     <addrLine>Portland, Ore.</addrLine>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-06-18">6/18/42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref=""/>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="3" wra-ref="" project-ref="JAIFRP-00120">Thomas - Mr. Linden</person>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine/>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine/>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p><person project-ref="JAIFRP-00120">Mr. Linden</person> phoned - sad <person project-ref="JAIFRP-00127">Mr. Monroe</person> had talked<span type="uncertainty" cause="handwriting"/>him and said<span type="uncertainty" cause="hadnwriting"/> still held his $500.00 deposit on original lease offer. We called<span type="uncertainty" cause="hadnwriting"/>and verified statment-but added<person project-ref="JAIFRP-00127">Monroe</person></p>
+                  <p>had called in today and why<span type="uncertainty" cause="handwriting"/>arranging to alter his deposit in full now!<person project-ref="JAIFRP-00127">Monroe</person>also said<orgName project-ref="JAIFRP-org-0090">D.V. Inc.</orgName><span type="uncertainty" cause="handwriting"/>a deposit of $100-t0<person project-ref="JAIFRP-00120">Linden</person>for an purchase of fixtures fashioned be entangled -<orgName project-ref="JAIFRP-org-0090">D.V. Inc.</orgName></p>
+                  <p><span type="uncertainty" cause="handwriting"/>any liability from the matter.<person project-ref="JAIFRP-00120">Tom Linden Sr.</person>advised the $100 would not be returned. Forfeit for not completing original deal. We called<person project-ref="JAIFRP-00120">Mr. Linden Sr.</person>and infromed him of comunication also advised him about what<orgName project-ref="JAIFRP-org-0090">D.V. Inc.</orgName>expexted to have giving deal to</p>
+                  <p><person project-ref="JAIFRP-00133">Radakovich</person>competition in a day or two.</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>6/23/42-<person project-ref="JAIFRP-00128">Mrs.Oliver</person>called to learn of deal<span type="uncertainty" cause="handwriting"/>was complete-we advised her up to date-deal<span type="uncertainty" cause="hadnwriting"/>closed</p>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="" wra-ref="" project-ref=""/>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note><orgName project-ref="JAIFRP-org-0090">Dean V. Inc.</orgName> AS3181</note>
+         <note>6/24/42-Called <orgName project-ref="JAIFRP-org-0090">D.V. Inc.</orgName>who have returned<span type="uncertainty" cause="handwriting"/>and leased<span type="uncertainty" cause="handwriting"/>being infromed<span type="uncertainty" cause="handwriting"/></note> 
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

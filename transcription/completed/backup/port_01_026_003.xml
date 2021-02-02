@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-08-16-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-08-19">Transcription</t:resp>
+               <t:name role="transcr" project-ref="andrej"/>
+               <t:note/>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-1335"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref="15290"/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/><note>noting written</note>
+         <orgName project-ref=""/>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="1" wra-ref="504291" project-ref="">Dick Kajikawa</person>
+                  <orgName project-ref=""/>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>Jap. Assmbly Center</addrLine>
+                     <addrLine>500 NW 5th St.</addrLine>
+					 <addrLine>Portland, Ore</addrLine>
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-06-23">6/23/42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="x">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref="US">U.S.</textLine>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <textLine>Phone call from <person role="6" wra-ref="" project-ref="JAIFRP-00221">Miss. Nelson</person></textLine>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>@ <person role="6" wra-ref="" project-ref="JAIFRP-00222">C. J. Howard</person></addrLine>
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine/>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p><person role="6" wra-ref="" project-ref="JAIFRP-00221">Miss. Nelson</person> called trying to locate "Dick <span type="underlined">Kajawawa</span>".</p>
+				  <p>who owns <span type="underlined">2 dogs</span>.  Dogs are being cared for by</p>
+				  <p><person role="6" wra-ref="" project-ref="JAIFRP-00222">Mr. &amp; Mrs. C. J. Howard</person>, 9441 SW 8th Drive but owner is</p>
+				  <p>not paying the <span type="uncertainty" cause="handwriting"/> bill.</p>
+				  <p>We checked but no name as above was listed - we</p>
+				  <p>asked for a correct spelling.</p>
+				  <p><span type="underlined">6/24/1942 10:00P.M</span></p>
+				  <p><person role="6" wra-ref="" project-ref="JAIFRP-00221">Miss. Nelson</person> called back = Japanese name is "Dick <span type="underlined">Kajikawa</span>"</p>
+				  <p>Family # is 15290 - Evacuated to Jap. Assembly</p>
+				  <p>Center, No Portland, from West Side Control Station.</p>
+				  <p>Called Assembly Center - <span type="underlined">Sec 4.E - 6 B</span>. Still</p>
+				  <p>at the center</p>
+				  <p>Called <person role="6" wra-ref="" project-ref="JAIFRP-00221">Miss. Nelson</person> at AT 6421 and advised her</p>
+				  <p>how to contact him.  She will write and may</p>
+				  <p>later ask us to have him interviewed if no answer</p>
+				  <p>is forthcoming.</p>
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p/>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" wra-ref="unknown" project-ref="unknown"><span type="uncertainty" cause="handwriting"/></person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note/>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

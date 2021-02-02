@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-07-31-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-08-06">Transcription</t:resp>
+               <t:name role="transcr" project-ref="andrej"/>
+               <t:note/>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-1011"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value="">Private Business</item>
+            <t:note project-ref="JAIFRP-org-0096">Fremont Hotel</t:note>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/>
+         <orgName project-ref="JAIFRP-org-0096">Fremont Hotel</orgName>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="3" wra-ref="" project-ref="JAIFRP-00138">Edward Feurnett</person>
+                  <orgName project-ref="JAIFRP-org-0096">Fremont Hotel</orgName>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>805 SW 1st St.</addrLine>
+                     <addrLine>Portland, Ore</addrLine>
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-06-08">6/8/42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref="US">Amer</textLine>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="3" wra-ref="" project-ref="JAIFRP-00138">Same</person>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine/>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine/>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p>Rents <span type="uncertainty" cause="handwriting">Sensei</span> "Ito" - Rooming house</p>
+				  <p>of 26 rooms at 805 SW 1st Ave., known</p>
+				  <p>as the <orgName project-ref="JAIFRP-org-0096">Fremont Hotel</orgName></p>
+				  <p>Is to operate @ 50.00 per mo. for owner</p>
+				  <p>Raised rents in april - tenants demand return</p>
+				  <p>of amount of raise from <person role="3" wra-ref="" project-ref="JAIFRP-00138">Mr. Feurnett</person></p>
+				  <p>Inquired re. new ordinance just passed</p>
+				  <p>No definite rulings available as yet.</p>
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>Referred him to Administrator Buyers Office - 306</p>
+				  <p>Ayers Bldg. Bc 5128</p>
+				  <p><span type="underlined">over</span></p>
+				  <note>following is a transcription off the back of the interview form - port_01_21_Page34</note>
+				  <p><span type="underlined">6/8/42</span></p>
+				  <p>Interviewed <span type="uncertainty" cause="handwriting">Sensei</span><person role="1" wra-ref="507980" project-ref="">"Ito"</person> at assembly</p>
+				  <p>center - also her father.  They admitted</p>
+				  <p>raising some rentals since March 1 - '42</p>
+				  <p>but indicated they would make some</p>
+				  <p>arrangements with <person role="3" wra-ref="" project-ref="JAIFRP-00138">Mr. Feurnett</person> to</p>
+				  <p>adjust any <span type="uncertainty" cause="handwriting"/> in arrange</p>
+				  <p>ments and rentals - certain amounts</p>
+				  <p>unpaid at their leaving and later paid</p>
+				  <p>by <person role="3" wra-ref="" project-ref="JAIFRP-00138">Mr. Feurnett</person> they indicated would be</p>
+				  <p>discussed and adjusted if in order.</p>
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" wra-ref="unknown" project-ref="unknown"><span type="uncertainty" cause="handwriting"/></person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note/>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

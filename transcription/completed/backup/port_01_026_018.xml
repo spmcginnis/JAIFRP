@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-08-16-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-08-19">Transcription</t:resp>
+               <t:name role="transcr" project-ref="andrej"/>
+               <t:note>Decided to give Kato a project-ref # as all 3 possible matches <person role="1" wra-ref="210122" project-ref="">Henry Kato</person>
+			   <person role="1" wra-ref="310020" project-ref="">Henry Kato</person>, and <person role="1" wra-ref="406810" project-ref="">Henry Kato</person>, are all from CA.
+			   There is a possible match for a middle initial, <person role="1" wra-ref="502416" project-ref="">Kato H. Hawley</person>, from OR, but no way to know for certain.</t:note>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-1322"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref=""/>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value="2650.00">Property</item>
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/><note>nothing written</note>
+         <orgName project-ref=""/>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="1" wra-ref="" project-ref="JAIFRP-00226">Henry Kato</person>
+                  <orgName project-ref=""/>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>Assembly Center</addrLine>
+                     <addrLine>No. Portland</addrLine>
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-05-20">5/20/42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="x">Telephone</item>
+                  <item checked="">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref=""/>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="" wra-ref="" project-ref=""/>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine/>
+                     <!--Create more as necessary. May use <textLine/> as alternate.-->
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine/>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p><span type="uncertainty" cause="handwriting"/> will now pay $2650.00 - <span type="underlined">unfurnished</span></p>
+				  <p>for residence at 3937 S.E. Francis.  500.00 - Cash.</p>
+				  <p>35.00 monthly to include interest &amp; taxes.</p>
+				  <p>Will also put into the place $500.00 in improvements.</p>
+				  <p>If purchaser can obtain mortgage in three years, he will</p>
+				  <p>pay up completely within that time.</p>
+				  <p>5/21 <person role="1" wra-ref="" project-ref="JAIFRP-00226">Kato</person> has agreed to accept above terms &amp; will be</p>
+				  <p>signed up tomorrow.</p>
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p>Told him to phone <person role="1" wra-ref="" project-ref="JAIFRP-00226">Kato</person> direct at Center &amp;</p>
+				  <p>put up his proposition to him - told that he</p>
+				  <p>did not think he would accept it.</p>
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" wra-ref="" project-ref="JAIFRP-00011">Hemingway</person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note/>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>

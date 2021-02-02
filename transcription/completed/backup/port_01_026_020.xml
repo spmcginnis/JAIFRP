@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JAIFR-XML xmlns:t="http://www.tei-c.org/ns/1.0">
+   <t:teiHeader>
+      <t:fileDesc>
+         <t:titleStmt>
+            <t:title/>
+            <t:respStmt>
+               <t:resp when="2018-08-16-05:00">XML template created with make-templates.xsl for type="interviewForm" Version 1.0</t:resp>
+               <t:name role="editor" project-ref="spmcginnis"/>
+            </t:respStmt>
+            <t:respStmt>
+               <t:resp when="2018-08-19">Transcription</t:resp>
+               <t:name role="transcr" project-ref="andrej"/>
+               <t:note>Decided to give Kato a project-ref # as all 3 possible matches <person role="1" wra-ref="210122" project-ref="">Henry Kato</person>
+			   <person role="1" wra-ref="310020" project-ref="">Henry Kato</person>, and <person role="1" wra-ref="406810" project-ref="">Henry Kato</person>, are all from CA.
+			   There is a possible match for a middle initial, <person role="1" wra-ref="502416" project-ref="">Kato H. Hawley</person>, from OR, but no way to know for certain.</t:note>
+            </t:respStmt>
+         </t:titleStmt>
+         <t:publicationStmt/>
+         <t:sourceDesc>
+            <t:bibl>
+               <index ref="P-1325"/>
+               <series>Portland</series>
+            </t:bibl>
+         </t:sourceDesc>
+      </t:fileDesc>
+      <t:xenoData><!--NARA meta will go here-->
+         <family-identifier ref="15503"/><t:note>this family# returns 0 results</t:note>
+      </t:xenoData>
+      <researchStmt>
+         <propertyList>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <item principal="" value=""/>
+            <!--Create more <item/> elements as necessary-->
+            <t:note project-ref=""/>
+         </propertyList>
+      </researchStmt>
+   </t:teiHeader>
+   <document type="interviewForm">
+      <div loc="side">
+         <person role="" wra-ref="" project-ref=""/><note>nothing written</note>
+         <orgName project-ref=""/>
+         <!--Choose one. May use <textLine/> as alternate.-->
+      </div>
+      <div loc="top">
+         <p>Portland Branch<br/>Federal Reserve Bank of San Francisco<br/>Fiscal Agent of the United States</p>
+         <form>
+            <formPart>
+               <field>
+                  <label>Name</label>
+                  <person role="1" wra-ref="" project-ref="JAIFRP-00226">Henry Kato</person>
+                  <orgName project-ref=""/>
+                  <!--Choose one. May use <textLine/> as alternate.-->
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <addrLine>Assembly Center</addrLine>
+                     <addrLine>No. Portland</addrLine>
+					 <textLine>Family#15503 - Sec. 5-C-21</textLine><note>this family# returns 0 results</note>
+                  </address>
+               </field>
+               <field>
+                  <date when="1942-05-13">5/13/42</date>
+               </field>
+               <field type="checkList">
+                  <item checked="">Telephone</item>
+                  <item checked="">Interview</item>
+               </field>
+               <field type="checkList">
+                  <item checked="">Adult</item>
+                  <item checked="">Minor</item>
+                  <item checked="">Male</item>
+                  <item checked="">Female</item>
+               </field>
+               <field>
+                  <label>Citizenship</label>
+                  <textLine ref=""/>
+                  <!--ISO 3166-1 alpha-2-->
+                  <!--United States: ref="US"; Japan: ref="JP"; Germany: ref="DE"; Italy: ref="IT"-->
+                  <!--If you encounter any others, add a note to the documentation and ping me. -spm-->
+               </field>
+               <field><!--The following section usually concerns the subject.-->
+                  <label>Date of last entry into United States</label>
+                  <date when="YYYY-MM-DD"/>
+               </field>
+               <field>
+                  <label>Operating under Treasury License now?</label>
+                  <textLine checked=""/>
+               </field>
+               <!--person interviewed-->
+               <field>
+                  <label>Person Interviewed</label>
+                  <person role="1" wra-ref="" project-ref="JAIFRP-00226">Kato</person> &amp; <person role="2" wra-ref="" project-ref="JAIFRP-00231">Sewall</person>
+               </field>
+               <field>
+                  <label>Address</label>
+                  <address>
+                     <textLine><person role="6" wra-ref="" project-ref="JAIFRP-00228">Boly</person></textLine>
+                  </address>
+               </field>
+               <field>
+                  <label>Telephone Number</label>
+                  <textLine/>
+               </field>
+               <field type="checkList">
+                  <label>Type of Business</label>
+                  <item checked="">Partnership</item>
+                  <item checked="">Proprietorship</item>
+                  <item checked="">Corporation</item>
+                  <item checked="">Individual</item>
+               </field>
+            </formPart>
+            <formPart>
+               <textBox id="scope">
+                  <label>Principal property involved and scope of problem</label>
+                  <p>Owns furnished house at 39th &amp; S.E. Francis Sts.</p>
+				  <p>in name of cousin <person role="1" wra-ref="504872" project-ref="">Hanako Kato</person>.  Has been</p>
+				  <p>renting for 37.50.  Through his attorney - <person role="2" wra-ref="" project-ref="JAIFRP-00231">Ronald Sewall Jr.</person> - he</p>
+				  <p>agreed to sell furnished, for $2650.00 - 350.00 down - 35.00 month</p>
+				  <p><span type="uncertainty" cause="handwriting"/> would put 500.00 in improvements into place.</p>
+				  <p><person role="6" wra-ref="" project-ref="JAIFRP-00228">Evelyn Boly</person> of <orgName project-ref="JAIFRP-org-0157">Newman Tarbell Co.</orgName> (LA. 2116) sold place &amp;</p>
+				  <p><person role="2" wra-ref="" project-ref="JAIFRP-00231">Sewall</person> drew papers but <person role="1" wra-ref="" project-ref="JAIFRP-00226">Kato</person> refused to sign them &amp; said</p>
+				  <p>now they want to rent the house.  Furnace out of commission</p>
+				  <p>furniture worth about $100.00 - rooms poorly arranged.  90x100 lot.</p>
+				  <p>Both <person role="2" wra-ref="" project-ref="JAIFRP-00231">Sewall</person> &amp; <person role="6" wra-ref="" project-ref="JAIFRP-00228">Boly</person> claim $2650.00 is all the place is worth.</p>
+				  <p>Later -Week went &amp; inspected the home &amp; grounds &amp; was approached</p>
+				  <p>by two parties interested in occupying the premises on some basis - </p>
+				  <p>Referred them both to <person role="6" wra-ref="" project-ref="JAIFRP-00228">Boly</person>.</p>
+               </textBox>
+               <textBox id="action">
+                  <label>Action taken</label>
+                  <p/>
+                  <!--Create more <p/> as necessary.-->
+               </textBox>
+               <note>Attach addional pages where necessary.</note>
+            </formPart>
+            <formPart>
+               <field id="byLine">
+                  <label>Handled by</label>
+                  <person role="4" wra-ref="" project-ref="JAIFRP-00011">Hemingway</person>
+                  <textLine/>
+               </field>
+            </formPart>
+         </form>
+      </div>
+      <div loc="margin"><!--add any notes, marginalia, etc. that don't fall in another section.-->
+         <note/>
+         <note/>
+         <!--Create more <note/> as necessary.-->
+      </div>
+   </document>
+</JAIFR-XML>
