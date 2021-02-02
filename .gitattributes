@@ -1,0 +1,7 @@
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+WRA/WRA-internee-file.xml filter=lfs diff=lfs merge=lfs -text
+xml/internee-file-mod.xml filter=lfs diff=lfs merge=lfs -text
+WRA/WRA-internee-file.csv filter=lfs diff=lfs merge=lfs -text
+d
+xml/wra-xml/internee-file-mod.xml filter=lfs diff=lfs merge=lfs -text
